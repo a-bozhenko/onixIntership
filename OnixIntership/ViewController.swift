@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var text = "text"
+    
     
     @IBOutlet weak var TextArea: UILabel!
     
@@ -19,10 +21,7 @@ class ViewController: UIViewController {
         
         let session = URLSession.shared
         
-       
-        
-        session.dataTask(with: url) { [self] data, response, error in
-                       
+       let task = session.dataTask(with: url) { [] data, response, error in
             if let response = response {
                 print(response);
             }
@@ -32,24 +31,26 @@ class ViewController: UIViewController {
             do {
                 let result = String(data: data, encoding: .utf8) ?? ""
                 
-                TextArea.text = result
-                
-                print(result)
+                self.updateInMain(labelText: result)
             }
-        }.resume();
+        }
+        task.resume();
     }
     
+    func updateInMain(labelText: String) {
+        DispatchQueue.global(qos: .background).async {
+            DispatchQueue.main.async{
+                self.TextArea.text = labelText
+            }
+        }
+    }
     
     @IBAction func Button(_ sender: UIButton) {
-       let res = self.sendGetRequest(url: "http://numbersapi.com/random/year")
-        
-      
-        
+        self.sendGetRequest(url: "http://numbersapi.com/random/year")
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
