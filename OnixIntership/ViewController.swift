@@ -8,7 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var TextArea: UILabel!
+    
     func sendGetRequest(url: String) -> Void {
         guard let url = URL(string: url) else {return }
 
@@ -17,30 +19,34 @@ class ViewController: UIViewController {
         
         let session = URLSession.shared
         
-        session.dataTask(with: url) { data, response, error in
+       
+        
+        session.dataTask(with: url) { [self] data, response, error in
+                       
             if let response = response {
                 print(response);
             }
             
             guard let data = data else {return}
             
-            print(data)
-            
             do {
-                let json = try JSONSerialization.jsonObject(with: data, options: [])
-                print(json)
+                let result = String(data: data, encoding: .utf8) ?? ""
                 
-            } catch {
-                print(error)
+                TextArea.text = result
+                
+                print(result)
             }
         }.resume();
     }
     
     
     @IBAction func Button(_ sender: UIButton) {
+       let res = self.sendGetRequest(url: "http://numbersapi.com/random/year")
+        
+      
+        
     }
     
-    @IBOutlet weak var TextArea: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

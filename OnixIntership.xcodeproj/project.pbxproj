@@ -13,26 +13,7 @@
 		B687C4BE26F74EDD00EC39ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B687C4BC26F74EDD00EC39ED /* Main.storyboard */; };
 		B687C4C026F74EDF00EC39ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B687C4BF26F74EDF00EC39ED /* Assets.xcassets */; };
 		B687C4C326F74EDF00EC39ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B687C4C126F74EDF00EC39ED /* LaunchScreen.storyboard */; };
-		B687C4CE26F74EDF00EC39ED /* OnixIntershipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687C4CD26F74EDF00EC39ED /* OnixIntershipTests.swift */; };
-		B687C4D926F74EDF00EC39ED /* OnixIntershipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687C4D826F74EDF00EC39ED /* OnixIntershipUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B687C4CA26F74EDF00EC39ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B687C4AB26F74EDD00EC39ED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B687C4B226F74EDD00EC39ED;
-			remoteInfo = OnixIntership;
-		};
-		B687C4D526F74EDF00EC39ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B687C4AB26F74EDD00EC39ED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B687C4B226F74EDD00EC39ED;
-			remoteInfo = OnixIntership;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B687C4B326F74EDD00EC39ED /* OnixIntership.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnixIntership.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,30 +24,10 @@
 		B687C4BF26F74EDF00EC39ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B687C4C226F74EDF00EC39ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B687C4C426F74EDF00EC39ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B687C4C926F74EDF00EC39ED /* OnixIntershipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnixIntershipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B687C4CD26F74EDF00EC39ED /* OnixIntershipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnixIntershipTests.swift; sourceTree = "<group>"; };
-		B687C4CF26F74EDF00EC39ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B687C4D426F74EDF00EC39ED /* OnixIntershipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnixIntershipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B687C4D826F74EDF00EC39ED /* OnixIntershipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnixIntershipUITests.swift; sourceTree = "<group>"; };
-		B687C4DA26F74EDF00EC39ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B687C4B026F74EDD00EC39ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B687C4C626F74EDF00EC39ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B687C4D126F74EDF00EC39ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				B687C4B526F74EDD00EC39ED /* OnixIntership */,
-				B687C4CC26F74EDF00EC39ED /* OnixIntershipTests */,
-				B687C4D726F74EDF00EC39ED /* OnixIntershipUITests */,
 				B687C4B426F74EDD00EC39ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				B687C4B326F74EDD00EC39ED /* OnixIntership.app */,
-				B687C4C926F74EDF00EC39ED /* OnixIntershipTests.xctest */,
-				B687C4D426F74EDF00EC39ED /* OnixIntershipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,24 +65,6 @@
 				B687C4C426F74EDF00EC39ED /* Info.plist */,
 			);
 			path = OnixIntership;
-			sourceTree = "<group>";
-		};
-		B687C4CC26F74EDF00EC39ED /* OnixIntershipTests */ = {
-			isa = PBXGroup;
-			children = (
-				B687C4CD26F74EDF00EC39ED /* OnixIntershipTests.swift */,
-				B687C4CF26F74EDF00EC39ED /* Info.plist */,
-			);
-			path = OnixIntershipTests;
-			sourceTree = "<group>";
-		};
-		B687C4D726F74EDF00EC39ED /* OnixIntershipUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B687C4D826F74EDF00EC39ED /* OnixIntershipUITests.swift */,
-				B687C4DA26F74EDF00EC39ED /* Info.plist */,
-			);
-			path = OnixIntershipUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +87,6 @@
 			productReference = B687C4B326F74EDD00EC39ED /* OnixIntership.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B687C4C826F74EDF00EC39ED /* OnixIntershipTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B687C4E026F74EDF00EC39ED /* Build configuration list for PBXNativeTarget "OnixIntershipTests" */;
-			buildPhases = (
-				B687C4C526F74EDF00EC39ED /* Sources */,
-				B687C4C626F74EDF00EC39ED /* Frameworks */,
-				B687C4C726F74EDF00EC39ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B687C4CB26F74EDF00EC39ED /* PBXTargetDependency */,
-			);
-			name = OnixIntershipTests;
-			productName = OnixIntershipTests;
-			productReference = B687C4C926F74EDF00EC39ED /* OnixIntershipTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B687C4D326F74EDF00EC39ED /* OnixIntershipUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B687C4E326F74EDF00EC39ED /* Build configuration list for PBXNativeTarget "OnixIntershipUITests" */;
-			buildPhases = (
-				B687C4D026F74EDF00EC39ED /* Sources */,
-				B687C4D126F74EDF00EC39ED /* Frameworks */,
-				B687C4D226F74EDF00EC39ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B687C4D626F74EDF00EC39ED /* PBXTargetDependency */,
-			);
-			name = OnixIntershipUITests;
-			productName = OnixIntershipUITests;
-			productReference = B687C4D426F74EDF00EC39ED /* OnixIntershipUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +98,6 @@
 				TargetAttributes = {
 					B687C4B226F74EDD00EC39ED = {
 						CreatedOnToolsVersion = 12.5.1;
-					};
-					B687C4C826F74EDF00EC39ED = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = B687C4B226F74EDD00EC39ED;
-					};
-					B687C4D326F74EDF00EC39ED = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = B687C4B226F74EDD00EC39ED;
 					};
 				};
 			};
@@ -220,8 +115,6 @@
 			projectRoot = "";
 			targets = (
 				B687C4B226F74EDD00EC39ED /* OnixIntership */,
-				B687C4C826F74EDF00EC39ED /* OnixIntershipTests */,
-				B687C4D326F74EDF00EC39ED /* OnixIntershipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +127,6 @@
 				B687C4C326F74EDF00EC39ED /* LaunchScreen.storyboard in Resources */,
 				B687C4C026F74EDF00EC39ED /* Assets.xcassets in Resources */,
 				B687C4BE26F74EDD00EC39ED /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B687C4C726F74EDF00EC39ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B687C4D226F74EDF00EC39ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,36 +143,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B687C4C526F74EDF00EC39ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B687C4CE26F74EDF00EC39ED /* OnixIntershipTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B687C4D026F74EDF00EC39ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B687C4D926F74EDF00EC39ED /* OnixIntershipUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B687C4CB26F74EDF00EC39ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B687C4B226F74EDD00EC39ED /* OnixIntership */;
-			targetProxy = B687C4CA26F74EDF00EC39ED /* PBXContainerItemProxy */;
-		};
-		B687C4D626F74EDF00EC39ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B687C4B226F74EDD00EC39ED /* OnixIntership */;
-			targetProxy = B687C4D526F74EDF00EC39ED /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B687C4BC26F74EDD00EC39ED /* Main.storyboard */ = {
@@ -469,90 +319,6 @@
 			};
 			name = Release;
 		};
-		B687C4E126F74EDF00EC39ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R764F495G6;
-				INFOPLIST_FILE = OnixIntershipTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = onix.kr.ua.OnixIntershipTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnixIntership.app/OnixIntership";
-			};
-			name = Debug;
-		};
-		B687C4E226F74EDF00EC39ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R764F495G6;
-				INFOPLIST_FILE = OnixIntershipTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = onix.kr.ua.OnixIntershipTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnixIntership.app/OnixIntership";
-			};
-			name = Release;
-		};
-		B687C4E426F74EDF00EC39ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R764F495G6;
-				INFOPLIST_FILE = OnixIntershipUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = onix.kr.ua.OnixIntershipUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OnixIntership;
-			};
-			name = Debug;
-		};
-		B687C4E526F74EDF00EC39ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R764F495G6;
-				INFOPLIST_FILE = OnixIntershipUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = onix.kr.ua.OnixIntershipUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OnixIntership;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -570,24 +336,6 @@
 			buildConfigurations = (
 				B687C4DE26F74EDF00EC39ED /* Debug */,
 				B687C4DF26F74EDF00EC39ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B687C4E026F74EDF00EC39ED /* Build configuration list for PBXNativeTarget "OnixIntershipTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B687C4E126F74EDF00EC39ED /* Debug */,
-				B687C4E226F74EDF00EC39ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B687C4E326F74EDF00EC39ED /* Build configuration list for PBXNativeTarget "OnixIntershipUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B687C4E426F74EDF00EC39ED /* Debug */,
-				B687C4E526F74EDF00EC39ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
